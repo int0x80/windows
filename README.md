@@ -4,8 +4,8 @@ This repository contains bits from messing around in Windows.
 
 # Table of Contents
 
-1. ADPasswordReset.ps1
-2. LabAccountImport-2008-R2.ps1
+1. [ADPasswordReset.ps1](#adpasswordresetps1)
+2. [LabAccountImport-2008-R2.ps1](#labaccountimport-2008-r2ps1)
 
 # ADPasswordReset.ps1
 
