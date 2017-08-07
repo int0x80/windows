@@ -6,6 +6,7 @@ This repository contains bits from messing around in Windows.
 
 1. [ADPasswordReset.ps1](#adpasswordresetps1)
 2. [LabAccountImport-2008-R2.ps1](#labaccountimport-2008-r2ps1)
+3. [Setup-VM.ps1](#setup-vmps1)
 
 # ADPasswordReset.ps1
 
@@ -42,4 +43,14 @@ Create AD accounts using a CSV file from http://fakenamegenerator.com.  Original
 
 # Import the generated users
 > Import-LabADUser -Path .\UniqueUsers.csv -OrganizationalUnit Sales
+```
+
+# Setup-VM.ps1
+
+Initialize base setup of free VMs from https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/.
+
+## Usage
+
+```powershell
+> .\Setup-VM.ps1
 ```
