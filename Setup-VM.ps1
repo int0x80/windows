@@ -75,6 +75,7 @@ function Install-Apps {
   choco install peazip.install -y
   choco install firefox -y
   choco install sysinternals -y
+  choco install gimp -y
 
   Write-Host "[+] Installed individual applications."
 }
