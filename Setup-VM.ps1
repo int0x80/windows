@@ -9,7 +9,7 @@
   Compatibility : PowerShell 2.0
   License       : WTFPL (http://www.wtfpl.net/)
 .LINK
-  Script hosted at https://github.com/int0x80/WINDOWS
+  Script hosted at https://github.com/int0x80/windows
 #>
 
 
@@ -76,6 +76,7 @@ function Install-Apps {
   choco install firefox -y
   choco install sysinternals -y
   choco install gimp -y
+  choco install transmission -y
 
   Write-Host "[+] Installed individual applications."
 }
